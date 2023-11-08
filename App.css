@@ -1,0 +1,39 @@
+.App {
+    display:flex;
+    text-align: center;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.logins,.loginForm,.registerForm{
+  display: flex;
+  flex-direction: column;
+}
+label{
+  text-align: left;
+  padding: 0.25rem 0;
+}
+input{
+  margin:0.25rem;
+  height:30px;
+  width:260px;
+  border: none;
+  border-radius: 5px;
+}
+.buttons{
+  border: none;
+  background-color: beige;
+  padding: 15px;
+  border-radius: 10px;
+  cursor:pointer;
+  height: auto;
+  text-align: center;
+  align-items: center;
+  margin: 4px 2px;
+}
+.linkbtn{
+  border:none;
+  background:none;
+  color:aliceblue;
+
+}

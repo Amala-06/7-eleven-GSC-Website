@@ -1,0 +1,29 @@
+.imgs{
+    margin-left: 420px;
+    width:350px;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: right;
+    color:white;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.7;
+
+}
+.container .content{
+    color:white;
+    flex: 1;
+}
+.container .image{
+    flex:1;
+    object-position: right;
+    text-align: right;
+}
+.container .image1{
+    flex:1;
+    object-position: left;
+    text-align: left;
+
+}

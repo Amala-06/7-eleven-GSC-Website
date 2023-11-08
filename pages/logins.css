@@ -1,0 +1,16 @@
+.logins{
+    display:flex;
+    text-align: center;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    color:white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+legend{
+    color:white;
+    font-size: 100px;
+}
